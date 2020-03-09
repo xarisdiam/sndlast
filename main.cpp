@@ -1,5 +1,8 @@
 #include <iostream>
 
 int main() {
-  std::cout << "Hello World!\n";
+  int b,result;
+  std::cin>>b;
+  result=(b/10)%10;
+  std::cout<<result<<std::endl;
 }
